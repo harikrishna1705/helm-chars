@@ -16,4 +16,3 @@ data:
     )
     engine = innodb
     default charset = utf8;
-    

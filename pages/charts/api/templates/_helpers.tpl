@@ -6,7 +6,6 @@
 {{- end -}}
 {{- end -}}
 
-
 {{- define "api.getdbserviceurl" -}}
 {{- list "jdbc:mysql://" .Values.global.mysql_svc_name "/" .Values.dbname | join "" | quote -}}
 {{- end -}}

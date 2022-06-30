@@ -6,6 +6,7 @@
 {{- end -}}
 {{- end -}}
 
+
 {{- define "mysql.getdbservicename" -}}
 {{- .Values.global.mysql_svc_name -}}
 {{- end -}}

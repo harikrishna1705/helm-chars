@@ -10,7 +10,3 @@ spec:
   selector:
     app: {{ include "mysql.fullname" . }}
   type: {{ .Values.service.type }}
-
-  
-
-

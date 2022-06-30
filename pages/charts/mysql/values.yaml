@@ -40,7 +40,7 @@ pv:
     storage: 3Gi
   accessMode: ReadWriteMany
   hostPath:
-    path: "/var/lib/mysql/camden"
+    path: "/var/lib/mysql/dipak"
 pvc:
   resources:
     requests:
@@ -50,5 +50,3 @@ storageClass:
   provisioner: k8s.io/minikube-hostpath
   reclaimPolicy: Delete
   volumeBindingMode: Immediate
-
-
